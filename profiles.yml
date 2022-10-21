@@ -27,11 +27,11 @@ integration_tests:
       threads: 8
     snowflake:
       type: snowflake
-      account: "{{ env_var('CI_SNOWFLAKE_DBT_ACCOUNT') }}"
-      user: "{{ env_var('CI_SNOWFLAKE_DBT_USER') }}"
-      password: "{{ env_var('CI_SNOWFLAKE_DBT_PASS') }}"
-      role: "{{ env_var('CI_SNOWFLAKE_DBT_ROLE') }}"
-      database: "{{ env_var('CI_SNOWFLAKE_DBT_DATABASE') }}"
-      warehouse: "{{ env_var('CI_SNOWFLAKE_DBT_WAREHOUSE') }}"
+      account: "sr68547.ap-southeast-1.snowflakecomputing.com"
+      user: "wasan"
+      password: "Snowflake28*"
+      role: "sysadmin"
+      database: "dbt_db"
+      warehouse: "dbt_wh"
       schema: github_integration_tests
       threads: 8
